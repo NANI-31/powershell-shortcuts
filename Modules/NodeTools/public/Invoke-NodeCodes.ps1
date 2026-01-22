@@ -325,7 +325,7 @@ function New-EnvFile {
     $envContent = @"
 # Server port
 PORT=5000
-MONGODB_URI=mongodb+srv://nani:nani@cluster0.nkgeayy.mongodb.net/$MongoURI?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://user:pass@cluster0.nkgeayy.mongodb.net/$MongoURI?retryWrites=true&w=majority
 
 # JWT / Authentication
 JWT_SECRET=your_jwt_secret_key
